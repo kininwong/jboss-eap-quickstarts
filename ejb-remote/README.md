@@ -84,7 +84,8 @@ Since this quickstart builds two separate components, you can not use the standa
 	          </profile>
 	          ```
 	          
-	 Reference: (http://lauraliparulo.altervista.org/jboss-wildfly-maven-plugin-to-deploy-on-localhostremote-server/)
+	 Reference: (1. http://lauraliparulo.altervista.org/jboss-wildfly-maven-plugin-to-deploy-on-localhostremote-server/
+	 2. https://docs.jboss.org/author/display/AS71/Remote+EJB+invocations+via+JNDI+-+EJB+client+API+or+remote-naming+project)
 	 
     To install it, navigate to quickstarts project root directory and run the following command:
 
