@@ -69,6 +69,21 @@ Since this quickstart builds two separate components, you can not use the standa
             mvn exec:exec        
 
     __Note__: This quickstart requires `quickstart-parent` artifact to be installed in your local Maven repository.
+    Add a profile in the MAVEN_HOME\.m2\settings.xml
+    
+    Example:
+             <profile>
+	            <id>wildfly-remote</id>
+	            <properties>
+	              <wildfly-hostname>remote server ip</wildfly-hostname>
+        	        <wildfly-port>9990</wildfly-port>
+	              <wildfly-username>admin</wildfly-username>
+                 <wildfly-password>password</wildfly-password>
+        	      </properties>
+	          </profile>
+	          
+	 Reference: (http://lauraliparulo.altervista.org/jboss-wildfly-maven-plugin-to-deploy-on-localhostremote-server/)
+	 
     To install it, navigate to quickstarts project root directory and run the following command:
 
         mvn clean install
