@@ -71,7 +71,7 @@ Since this quickstart builds two separate components, you can not use the standa
     __Note__: This quickstart requires `quickstart-parent` artifact to be installed in your local Maven repository.
     Add a profile in the MAVEN_HOME\.m2\settings.xml
     
-    Example:
+    * Example:
              <profile>
 	            <id>wildfly-remote</id>
 	            <properties>
