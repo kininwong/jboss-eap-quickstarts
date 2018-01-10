@@ -72,6 +72,7 @@ Since this quickstart builds two separate components, you can not use the standa
     Add a profile in the MAVEN_HOME\.m2\settings.xml
     
     * Example:
+             ```xml
              <profile>
 	            <id>wildfly-remote</id>
 	            <properties>
@@ -81,6 +82,7 @@ Since this quickstart builds two separate components, you can not use the standa
                  <wildfly-password>password</wildfly-password>
         	      </properties>
 	          </profile>
+	          ```
 	          
 	 Reference: (http://lauraliparulo.altervista.org/jboss-wildfly-maven-plugin-to-deploy-on-localhostremote-server/)
 	 
